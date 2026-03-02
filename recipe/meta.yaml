@@ -1,5 +1,5 @@
 {% set name = "kvrocks" %}
-{% set version = "2.14.0" %}
+{% set version = "2.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/apache/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 6e578e82e0511d32eed70ce71d195eaa7bf6a7cf13ecd9ea65eb741a4f398f19
+  sha256: be9a74e95b6b13a262a2c5b7e80bb9f0b2086b101cc78c07dd0a7bd68304f489
 
 build:
   number: 0
